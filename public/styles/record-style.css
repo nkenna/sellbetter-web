@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    height: 200px;
+    width: 100%;
+    background-image: linear-gradient(#7C5CFA, #6F63D1);
+}
+.logo{
+    width: 140px;
+    height: auto;
+    padding: 20px;
+    margin: 20px 80px;
+}
+.logout{
+    float: right;
+    margin: 40px 120px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.logout h2{
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}
+.logout img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 5%;
+    right: 6.5%;
+}
+.topnav{
+    overflow: hidden;
+    padding: 10px;
+    margin: -10px 78px;
+}
+.topnav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+.topnav a.active{
+    background-color: rgba(255, 255, 255, 0.336);
+    color: #ff06da;
+    border-radius: 15px;
+    padding: 8px 22px;
+    margin: 0px 15px;
+}
+.topnav a.box{
+    background-color: rgba(255, 255, 255, 0.336);
+    border-radius: 15px;
+    padding: 8px 22px;
+    margin: 0px 15px;
+}
+.rq-btn{
+    float: right;
+    margin: -50px 80px;
+    padding: 15px 50px;
+    text-align: left;
+    background: none;
+    border: none;
+    outline: none;
+    font-family: 'Space Grotesk', sans-serif;
+    color: #FF1EDB;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0px 4px 40px 15px rgba(215, 150, 255, 0.15);
+}
+.rq-btn .pad1{
+    padding-right: 40px;
+    color: #475099;
+    
+}
+.rq-btn .pad2{
+    padding-right: 40px;
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+}
+.rq-btn .right{
+    float: right;
+    margin: -29px -43px;
+    padding-right: 26px;
+}
+.search-container{
+    margin: 10px 100px;
+}
+.inputBox{
+    margin: 10px 100px;
+}
+.inputBox .textbox{
+    width: 57.4%;
+    padding: 16px 6px;
+    margin: 25px 0px;
+    padding-left: 50px;
+    display: inline;
+    font-size: 13px;
+    font-family: 'Space Grotesk', sans-serif;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: none;
+    background: #FEEDFF;
+}
+::placeholder
+{
+    color: rgb(126, 126, 126);
+    padding-left: 5px;
+    font-size: 14px;
+}
+.inputBox .search{
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    margin: 42px 20px;
+}
+.inputBox button{
+    position: absolute;
+    padding: 15px 25px 12.5px 25px;
+    margin: 25px -49px;
+    background: #4F45A0;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+.inputBox .calender{
+    height: 18px;
+    width: 18px;
+}
+.records{
+    width: 50%;
+    background: #4F45A0;
+    border-radius: 10px;
+    margin: 10px 100px;
+    margin-bottom: 15px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 25px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.grid-container .grid-item1{
+    color: #FF1EDB;
+}
+.grid-container .grid-item2{
+    color: white;
+    position: absolute;
+    margin: 0px 135px;
+
+}
+.grid-container .grid-item3{
+    position: absolute;
+    margin: -10px 495px;
+    color: white;
+    border: none;
+    background: rgba(255, 255, 255, 0.226);
+    padding: 10px;
+    border-radius: 10px;
+}
+.footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    background-image: linear-gradient(#7C5CFA, #6F63D1);
+    color: white;
+    text-align: left;
+    margin-top: 50px;
+}
+.footer p{
+    margin: 3px 80px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 15px;
+}

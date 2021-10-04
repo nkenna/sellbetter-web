@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    height: 200px;
+    width: 100%;
+    background-image: linear-gradient(#7C5CFA, #6F63D1);
+}
+.logo{
+    width: 170px;
+    height: auto;
+    padding: 20px;
+    margin: 20px 80px;
+}
+.logout{
+    float: right;
+    margin: 40px 120px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.logout h2{
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}
+.logout img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 5%;
+    right: 6.5%;
+}
+.topnav{
+    overflow: hidden;
+    padding: 10px;
+    margin: -10px 78px;
+}
+.topnav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+.topnav a.active{
+    background-color: rgba(255, 255, 255, 0.336);
+    color: #ff06da;
+    border-radius: 15px;
+    padding: 8px 22px;
+    margin: 0px 15px;
+}
+.topnav a.box{
+    background-color: rgba(255, 255, 255, 0.336);
+    border-radius: 15px;
+    padding: 8px 22px;
+    margin: 0px 15px;
+}
+.rq-btn{
+    float: right;
+    margin: -50px 80px;
+    padding: 15px 50px;
+    text-align: left;
+    background: none;
+    border: none;
+    outline: none;
+    font-family: 'Space Grotesk', sans-serif;
+    color: #FF1EDB;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0px 4px 40px 15px rgba(215, 150, 255, 0.15);
+}
+.rq-btn .pad1{
+    padding-right: 40px;
+    color: #475099;
+    
+}
+.rq-btn .pad2{
+    padding-right: 40px;
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+}
+.rq-btn .right{
+    float: right;
+    margin: -29px -43px;
+    padding-right: 26px;
+}
+.msale{
+    width: 700px;
+    height: auto;
+    padding: 10px;
+    margin: 40px 89px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.msale h6{
+    padding-bottom: 5px;
+    color: #979797;
+    font-weight: 500;
+}
+.msale h2{
+    font-family: 'Red Hat Display', sans-serif;
+    color: #1F223A;
+    margin-bottom: 60px;
+}
+.msale .inputBox{
+    position: relative;
+    margin-bottom: 25px;
+}
+.msale .inputBox2 textarea{
+    width: 80%;
+    height: 150px;
+    padding: 10px 6px;
+    margin: 4px 0px;
+    display: inline;
+    word-wrap: break-word;
+    font-size: 13px;
+    font-family: 'Space Grotesk', sans-serif;
+    border: none;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: none;
+    background: transparent;
+}
+.msale .inputBox input{
+    width: 80%;
+    padding: 13px 6px;
+    margin: 44px 0px;
+    display: inline;
+    font-size: 13px;
+    font-family: 'Space Grotesk', sans-serif;
+    border: none;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: none;
+    background: transparent;
+}
+.msale .inputBox2 label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-bottom: 20px;
+    margin: 330px 100px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #2C325A;
+    display: inline-flex;
+}
+.msale .inputBox label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 8px 5px;
+    margin: 4px 0;
+    font-size: 13px;
+    font-weight: 500;
+    color: #2C325A;
+    display: inline-flex;
+}
+.msale input[type="submit"]
+{
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 28%;
+    height: 52px;
+    margin-top: -80px;
+    margin-bottom: 60px;
+    color: #FFFFFF;
+    background: #7C5CFA;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 30px 10px rgba(146, 120, 255, 0.26);
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 15px;
+}
+::placeholder
+{
+    color: rgb(153, 153, 153);
+}
+.footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    background-image: linear-gradient(#7C5CFA, #6F63D1);
+    color: white;
+    text-align: left;
+}
+.footer p{
+    margin: 3px 80px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 15px;
+}
